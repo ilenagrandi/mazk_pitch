@@ -5,6 +5,63 @@ const PitchDeck = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
+    // El Equipo
+    {
+      content: (
+        <div className="h-full flex flex-col justify-between">
+          <div>
+            <div className="text-sm text-gray-500 uppercase tracking-widest mb-8">El Equipo</div>
+            <h2 className="text-5xl font-light text-white mb-16 leading-tight">
+              Tres fundadores.<br/>
+              Un problema identificado.
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-3 gap-8 mb-16">
+            <div className="bg-zinc-900 p-8 border border-zinc-800">
+              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
+                <DollarSign className="w-10 h-10 text-cyan-400" />
+              </div>
+              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 1 · CEO</div>
+              <h3 className="text-xl text-white mb-4 font-light">Ilena Alfonso</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Matemática e ingeniera civil. Experiencia previa fundando empresas de software y automatizando procesos.
+              </p>
+            </div>
+
+            <div className="bg-zinc-900 p-8 border border-zinc-800">
+              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
+                <Zap className="w-10 h-10 text-cyan-400" />
+              </div>
+              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 2 · CTO</div>
+              <h3 className="text-xl text-white mb-4 font-light">Rafael Campo</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Ingeniero de software. Experiencia en desarrollo backend e infraestructura cloud.
+              </p>
+            </div>
+
+            <div className="bg-zinc-900 p-8 border border-zinc-800">
+              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
+                <Target className="w-10 h-10 text-cyan-400" />
+              </div>
+              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 3 · CPO</div>
+              <h3 className="text-xl text-white mb-4 font-light">Omar Crespo</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Lead engineer at Dapta. Ex-Rappi. Ex-Habi. Hace tecnología compleja simple.
+              </p>
+            </div>
+          </div>
+
+          <div className="border-t border-zinc-800 pt-8">
+            <p className="text-xl text-gray-400 leading-relaxed">
+              <span className="text-white">Experiencia en ventas</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Validación del problema</span>
+            </p>
+          </div>
+        </div>
+      ),
+      bg: "bg-black"
+    },
+
     // Portada
     {
       content: (
@@ -69,63 +126,6 @@ const PitchDeck = () => {
         </div>
       ),
       bg: "bg-zinc-950"
-    },
-
-    // El Equipo
-    {
-      content: (
-        <div className="h-full flex flex-col justify-between">
-          <div>
-            <div className="text-sm text-gray-500 uppercase tracking-widest mb-8">El Equipo</div>
-            <h2 className="text-5xl font-light text-white mb-16 leading-tight">
-              Tres fundadores.<br/>
-              Un problema identificado.
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-3 gap-8 mb-16">
-            <div className="bg-zinc-900 p-8 border border-zinc-800">
-              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
-                <DollarSign className="w-10 h-10 text-cyan-400" />
-              </div>
-              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 1 · CEO</div>
-              <h3 className="text-xl text-white mb-4 font-light">Ilena Alfonso</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">
-                Matemática e ingeniera civil. Experiencia previa fundando empresas de software y automatizando procesos.
-              </p>
-            </div>
-
-            <div className="bg-zinc-900 p-8 border border-zinc-800">
-              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
-                <Zap className="w-10 h-10 text-cyan-400" />
-              </div>
-              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 2 · CTO</div>
-              <h3 className="text-xl text-white mb-4 font-light">Rafael Campo</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">
-                Ingeniero de software. Experiencia en desarrollo backend e infraestructura cloud.
-              </p>
-            </div>
-
-            <div className="bg-zinc-900 p-8 border border-zinc-800">
-              <div className="w-20 h-20 bg-cyan-400/10 rounded-full flex items-center justify-center mb-6">
-                <Target className="w-10 h-10 text-cyan-400" />
-              </div>
-              <div className="text-sm text-cyan-400 uppercase tracking-wider mb-3">Fundador 3 · CPO</div>
-              <h3 className="text-xl text-white mb-4 font-light">Omar Crespo</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">
-                Lead engineer at Dapta. Ex-Rappi. Ex-Habi. Hace tecnología compleja simple.
-              </p>
-            </div>
-          </div>
-
-          <div className="border-t border-zinc-800 pt-8">
-            <p className="text-xl text-gray-400 leading-relaxed">
-              <span className="text-white">Experiencia en ventas</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Validación del problema</span>
-            </p>
-          </div>
-        </div>
-      ),
-      bg: "bg-black"
     },
 
     // El Problema - Quién lo tiene
