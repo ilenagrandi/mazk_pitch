@@ -414,51 +414,6 @@ const PitchDeck = () => {
       bg: "bg-black"
     },
 
-    // Por Qué Ahora
-    {
-      content: (
-        <div className="h-full flex items-center justify-center">
-          <div className="max-w-4xl space-y-16">
-            <div className="text-center space-y-6">
-              <div className="text-sm text-gray-500 uppercase tracking-widest">Timing</div>
-              <h2 className="text-6xl font-light text-white leading-tight">
-                ¿Por qué ahora?
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-3 gap-8">
-              <div className="bg-zinc-900 p-8 border border-zinc-800 text-center">
-                <div className="text-4xl font-extralight text-cyan-400 mb-4">2025</div>
-                <h3 className="text-xl text-white mb-3 font-light">Voice Cloning</h3>
-                <p className="text-gray-500 text-sm">Calidad comercial indistinguible del original</p>
-              </div>
-
-              <div className="bg-zinc-900 p-8 border border-zinc-800 text-center">
-                <div className="text-4xl font-extralight text-cyan-400 mb-4">GPT-4</div>
-                <h3 className="text-xl text-white mb-3 font-light">LLMs Maduros</h3>
-                <p className="text-gray-500 text-sm">Conversaciones coherentes de 40+ minutos</p>
-              </div>
-
-              <div className="bg-zinc-900 p-8 border border-zinc-800 text-center">
-                <div className="text-4xl font-extralight text-cyan-400 mb-4">98%↓</div>
-                <h3 className="text-xl text-white mb-3 font-light">Costo Accesible</h3>
-                <p className="text-gray-500 text-sm">De $1,000/hora a $2/hora</p>
-              </div>
-            </div>
-
-            <div className="text-center pt-8">
-              <p className="text-3xl font-light text-white leading-relaxed">
-                La tecnología está madura.<br/>
-                El mercado está desesperado.<br/>
-                <span className="text-cyan-400">Nadie lo ha ejecutado.</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      ),
-      bg: "bg-zinc-950"
-    },
-
     // Modelo de Negocio
     {
       content: (
