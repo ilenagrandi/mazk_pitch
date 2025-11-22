@@ -36,28 +36,28 @@ const PitchDeck = () => {
       content: (
         <div className="h-full flex flex-col justify-between">
           <div>
-            <div className="text-sm text-gray-500 uppercase tracking-widest mb-8">La Historia</div>
+            <div className="text-sm text-gray-500 uppercase tracking-widest mb-8">El Problema</div>
             <h2 className="text-5xl font-light text-white mb-12 leading-tight">
-              Hace un año teníamos<br/>300 leads listos para comprar
+              "Hace un año teníamos<br/>300 leads listos para comprar"
             </h2>
           </div>
           
           <div className="space-y-8 mb-16">
             <div className="border-l-2 border-cyan-400 pl-8 py-4">
               <p className="text-2xl text-gray-300 leading-relaxed">
-                Solo podíamos atender 10 llamadas al día
+                Solo pueden atender 10 llamadas al día
               </p>
             </div>
             
             <div className="border-l-2 border-gray-700 pl-8 py-4">
               <p className="text-2xl text-gray-300 leading-relaxed">
-                Los call centers destruían la tasa de conversión: de 28% a 4%
+                Los call centers destruyen la tasa de conversión: de 28% a 4%
               </p>
             </div>
             
             <div className="border-l-2 border-gray-700 pl-8 py-4">
               <p className="text-2xl text-gray-300 leading-relaxed">
-                Entrenar vendedores tomaba 3 meses y nunca replicaban el mismo resultado
+                Entrenar vendedores toma 3 meses y nunca replican el mismo resultado
               </p>
             </div>
 
@@ -120,7 +120,7 @@ const PitchDeck = () => {
 
           <div className="border-t border-zinc-800 pt-8">
             <p className="text-xl text-gray-400 leading-relaxed">
-              <span className="text-white">Ventas high-ticket</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Vivimos el problema</span>
+              <span className="text-white">Ventas high-ticket</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Entendemos el problema</span>
             </p>
           </div>
         </div>
@@ -661,13 +661,13 @@ const PitchDeck = () => {
             <div className="bg-zinc-900 p-8 border border-zinc-800">
               <div className="text-6xl font-extralight text-cyan-400 mb-4">01</div>
               <h3 className="text-2xl text-white mb-3 font-light">Problema real y masivo</h3>
-              <p className="text-gray-500 leading-relaxed">Lo vivimos. Lo validamos con cientos de conversaciones.</p>
+              <p className="text-gray-500 leading-relaxed">Lo validamos con cientos de conversaciones.</p>
             </div>
 
             <div className="bg-zinc-900 p-8 border border-zinc-800">
               <div className="text-6xl font-extralight text-cyan-400 mb-4">02</div>
               <h3 className="text-2xl text-white mb-3 font-light">Equipo ideal</h3>
-              <p className="text-gray-500 leading-relaxed">Ventas high-ticket + capacidad técnica + vivimos el problema.</p>
+              <p className="text-gray-500 leading-relaxed">Ventas high-ticket + capacidad técnica + entendemos el problema.</p>
             </div>
 
             <div className="bg-zinc-900 p-8 border border-zinc-800">
