@@ -79,7 +79,7 @@ const PitchDeck = () => {
             <div className="text-sm text-gray-500 uppercase tracking-widest mb-8">El Equipo</div>
             <h2 className="text-5xl font-light text-white mb-16 leading-tight">
               Tres fundadores.<br/>
-              Un problema compartido.
+              Un problema identificado.
             </h2>
           </div>
 
@@ -120,7 +120,7 @@ const PitchDeck = () => {
 
           <div className="border-t border-zinc-800 pt-8">
             <p className="text-xl text-gray-400 leading-relaxed">
-              <span className="text-white">Ventas high-ticket</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Entendemos el problema</span>
+              <span className="text-white">Experiencia en ventas</span> + <span className="text-white">Capacidad técnica</span> + <span className="text-white">Validación del problema</span>
             </p>
           </div>
         </div>
