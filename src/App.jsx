@@ -427,7 +427,7 @@ const PitchDeck = () => {
           </div>
 
           <div className="space-y-8 mb-16">
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 gap-8">
               <div className="bg-zinc-900 p-8 border border-zinc-800">
                 <div className="text-sm text-gray-500 uppercase tracking-wider mb-3">Setup Único</div>
                 <div className="text-5xl font-light text-cyan-400 mb-2">$2K</div>
@@ -435,34 +435,45 @@ const PitchDeck = () => {
               </div>
 
               <div className="bg-zinc-900 p-8 border border-zinc-800">
-                <div className="text-sm text-gray-500 uppercase tracking-wider mb-3">Starter</div>
-                <div className="text-5xl font-light text-white mb-2">$500</div>
-                <p className="text-gray-500 text-sm">100 llamadas/mes</p>
-              </div>
-
-              <div className="bg-zinc-900 p-8 border border-zinc-800">
-                <div className="text-sm text-gray-500 uppercase tracking-wider mb-3">Growth</div>
-                <div className="text-5xl font-light text-white mb-2">$1.5K</div>
-                <p className="text-gray-500 text-sm">500 llamadas/mes</p>
+                <div className="text-sm text-gray-500 uppercase tracking-wider mb-3">Comisión por Venta</div>
+                <div className="text-5xl font-light text-cyan-400 mb-2">3%</div>
+                <p className="text-gray-500 text-sm">De cada lead cerrado exitosamente</p>
               </div>
             </div>
 
-            <div className="grid grid-cols-4 gap-8 pt-8">
-              <div className="text-center">
-                <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">LTV/CAC</div>
-                <div className="text-4xl font-light text-cyan-400">20x</div>
+            <div className="bg-zinc-900 p-8 border border-zinc-800">
+              <div className="text-sm text-gray-500 uppercase tracking-wider mb-4 text-center">Ejemplo de Ingresos</div>
+              <div className="grid grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="text-sm text-gray-600 mb-2">Cliente vende producto de $3K</div>
+                  <div className="text-2xl font-light text-white">$90</div>
+                  <p className="text-gray-500 text-xs mt-1">por venta cerrada</p>
+                </div>
+                <div>
+                  <div className="text-sm text-gray-600 mb-2">100 ventas/mes</div>
+                  <div className="text-2xl font-light text-white">$9K</div>
+                  <p className="text-gray-500 text-xs mt-1">ingresos mensuales</p>
+                </div>
+                <div>
+                  <div className="text-sm text-gray-600 mb-2">Por cliente activo</div>
+                  <div className="text-2xl font-light text-cyan-400">$108K</div>
+                  <p className="text-gray-500 text-xs mt-1">ingresos anuales</p>
+                </div>
               </div>
+            </div>
+
+            <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center">
                 <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">Gross Margin</div>
-                <div className="text-4xl font-light text-cyan-400">88%</div>
+                <div className="text-4xl font-light text-cyan-400">95%+</div>
               </div>
               <div className="text-center">
-                <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">CAC</div>
-                <div className="text-4xl font-light text-white">$1K</div>
+                <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">Modelo</div>
+                <div className="text-2xl font-light text-white">Pay-per-sale</div>
               </div>
               <div className="text-center">
-                <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">LTV</div>
-                <div className="text-4xl font-light text-white">$22K</div>
+                <div className="text-sm text-gray-600 uppercase tracking-wider mb-2">Escalabilidad</div>
+                <div className="text-2xl font-light text-cyan-400">Sin límites</div>
               </div>
             </div>
 
@@ -470,15 +481,18 @@ const PitchDeck = () => {
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
                   <div className="text-sm text-gray-600 mb-2">Año 1 · 50 clientes</div>
-                  <div className="text-3xl font-light text-white">$600K ARR</div>
+                  <div className="text-3xl font-light text-white">$5.4M</div>
+                  <p className="text-gray-500 text-xs mt-1">(50 clientes × $108K)</p>
                 </div>
                 <div>
                   <div className="text-sm text-gray-600 mb-2">Año 2 · 300 clientes</div>
-                  <div className="text-3xl font-light text-white">$4.5M ARR</div>
+                  <div className="text-3xl font-light text-white">$32.4M</div>
+                  <p className="text-gray-500 text-xs mt-1">(300 clientes × $108K)</p>
                 </div>
                 <div>
                   <div className="text-sm text-gray-600 mb-2">Año 3 · 1K clientes</div>
-                  <div className="text-3xl font-light text-cyan-400">$18M ARR</div>
+                  <div className="text-3xl font-light text-cyan-400">$108M</div>
+                  <p className="text-gray-500 text-xs mt-1">(1K clientes × $108K)</p>
                 </div>
               </div>
             </div>
